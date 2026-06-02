@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model azure_app_service.Models.HomeViewModel
+
+<div class="text-center">
+    <h1 class="display-4">Azure App Service Demo</h1>
+    <p>This site is running on:</p>
+    <ul>
+        <li>Azure App Service</li>
+        <li>ASP.NET 10</li>
+        <li>Azure Sql Server (Serverless)</li>
+        <li>Key Vault for secrets</li>
+    
+    </ul>
+    <p>Azure DB hit @Model.Hits times.</p>
+</div>

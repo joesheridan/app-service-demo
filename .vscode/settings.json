@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/6fff8749-13fb-4c16-970c-7028b238bd4c/resourceGroups/app-service-rg1/providers/Microsoft.Web/sites/jsheridan-app-service-demo",
+    "appService.deploySubpath": "bin\\Release\\net10.0\\publish"
+}
